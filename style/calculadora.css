@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+.calculadora{
+	padding: 22px;
+	background: #666;
+	margin: 0 auto;
+	width: 70%;
+	max-width: 450px;
+	border-radius: 10px;
+	box-shadow: 2px 4px 6px #333
+}
+#resultado{
+	display: inline-block;
+	background: #fff;
+	text-align: right;
+	margin: 0 auto 15px ;
+	width: 73%;
+	padding: 14px;
+	font-size: 1.2em;
+	border: 2px solid #666;
+	box-shadow: -2px -2px 4px #666,2px -2px 4px #666
+
+}
+.div-historial{
+	text-align: center;
+	display: inline-block;
+	float:right;
+	width: 26%;
+	margin: 0 auto;
+
+}
+#botonHistorial{
+	
+	display: inline-block;
+	border: 2px dashed #666;
+	background: #fa4;
+	color: #fff;
+	padding: 10px 0;
+	width: 100%;
+	font-weight: bold;
+}
+
+.panel-numerico{
+	display: inline-block;
+	width: 74%;
+
+}
+ul{text-align: center;}
+.numero{
+	background: #448;
+}
+.operador, .decimal, .igual{
+	background: #e66;
+}
+.panel-numerico .borrar{
+	color: #eee;
+	background: #555;
+	font-weight: bold;	
+	width: 95%;
+}
+.panel-numerico li:hover, #botonHistorial:hover{
+	background: #eee;
+	color: #333;
+	transition: .4s background ease-in-out, .6s color, .6s border;
+
+}
+.panel-numerico li{
+	list-style-type: none;
+	display: inline-block;
+	width: 20.5%;
+	padding: 7% 0;
+	margin: 3px;
+	border: 2px dashed #666;
+	text-align: center;
+	color: #fff;
+	box-shadow: 3px 3px 2px #666
+
+}
